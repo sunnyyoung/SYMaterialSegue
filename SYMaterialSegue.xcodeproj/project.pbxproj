@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D56FDEF1B873A680017ADDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D56FDEE1B873A680017ADDB /* main.m */; };
+		7D56FDF21B873A680017ADDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D56FDF11B873A680017ADDB /* AppDelegate.m */; };
+		7D56FDF51B873A680017ADDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D56FDF41B873A680017ADDB /* ViewController.m */; };
+		7D56FDF81B873A680017ADDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D56FDF61B873A680017ADDB /* Main.storyboard */; };
+		7D56FDFA1B873A680017ADDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D56FDF91B873A680017ADDB /* Images.xcassets */; };
+		7D56FDFD1B873A680017ADDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D56FDFB1B873A680017ADDB /* LaunchScreen.xib */; };
+		7D9FCDFD1B9084C1004A54C7 /* SYMaterialModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FCDFB1B9084C1004A54C7 /* SYMaterialModalSegue.m */; };
+		7D9FCE001B9086DD004A54C7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9FCDFF1B9086DD004A54C7 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D56FDE91B873A680017ADDB /* SYMaterialSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYMaterialSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D56FDED1B873A680017ADDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D56FDEE1B873A680017ADDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D56FDF01B873A680017ADDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D56FDF11B873A680017ADDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D56FDF31B873A680017ADDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D56FDF41B873A680017ADDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D56FDF71B873A680017ADDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D56FDF91B873A680017ADDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D56FDFC1B873A680017ADDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7D9FCDFB1B9084C1004A54C7 /* SYMaterialModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMaterialModalSegue.m; sourceTree = "<group>"; };
+		7D9FCDFC1B9084C1004A54C7 /* SYMaterialModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMaterialModalSegue.h; sourceTree = "<group>"; };
+		7D9FCDFE1B9086DD004A54C7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7D9FCDFF1B9086DD004A54C7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D56FDE61B873A680017ADDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D56FDE01B873A680017ADDB = {
+			isa = PBXGroup;
+			children = (
+				7D56FDEB1B873A680017ADDB /* SYMaterialSegue */,
+				7D56FDEA1B873A680017ADDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D56FDEA1B873A680017ADDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D56FDE91B873A680017ADDB /* SYMaterialSegue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D56FDEB1B873A680017ADDB /* SYMaterialSegue */ = {
+			isa = PBXGroup;
+			children = (
+				7D56FE121B873AB90017ADDB /* SYMaterialSegue */,
+				7D56FDF01B873A680017ADDB /* AppDelegate.h */,
+				7D56FDF11B873A680017ADDB /* AppDelegate.m */,
+				7D56FDF31B873A680017ADDB /* ViewController.h */,
+				7D56FDF41B873A680017ADDB /* ViewController.m */,
+				7D9FCDFE1B9086DD004A54C7 /* SecondViewController.h */,
+				7D9FCDFF1B9086DD004A54C7 /* SecondViewController.m */,
+				7D56FDF61B873A680017ADDB /* Main.storyboard */,
+				7D56FDF91B873A680017ADDB /* Images.xcassets */,
+				7D56FDFB1B873A680017ADDB /* LaunchScreen.xib */,
+				7D56FDEC1B873A680017ADDB /* Supporting Files */,
+			);
+			path = SYMaterialSegue;
+			sourceTree = "<group>";
+		};
+		7D56FDEC1B873A680017ADDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D56FDED1B873A680017ADDB /* Info.plist */,
+				7D56FDEE1B873A680017ADDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D56FE121B873AB90017ADDB /* SYMaterialSegue */ = {
+			isa = PBXGroup;
+			children = (
+				7D9FCDFC1B9084C1004A54C7 /* SYMaterialModalSegue.h */,
+				7D9FCDFB1B9084C1004A54C7 /* SYMaterialModalSegue.m */,
+			);
+			path = SYMaterialSegue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D56FDE81B873A680017ADDB /* SYMaterialSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D56FE0C1B873A680017ADDB /* Build configuration list for PBXNativeTarget "SYMaterialSegue" */;
+			buildPhases = (
+				7D56FDE51B873A680017ADDB /* Sources */,
+				7D56FDE61B873A680017ADDB /* Frameworks */,
+				7D56FDE71B873A680017ADDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYMaterialSegue;
+			productName = SYMaterialSegue;
+			productReference = 7D56FDE91B873A680017ADDB /* SYMaterialSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D56FDE11B873A680017ADDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "GeekBean Technology Co., Ltd.";
+				TargetAttributes = {
+					7D56FDE81B873A680017ADDB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 7D56FDE41B873A680017ADDB /* Build configuration list for PBXProject "SYMaterialSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D56FDE01B873A680017ADDB;
+			productRefGroup = 7D56FDEA1B873A680017ADDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D56FDE81B873A680017ADDB /* SYMaterialSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D56FDE71B873A680017ADDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D56FDF81B873A680017ADDB /* Main.storyboard in Resources */,
+				7D56FDFD1B873A680017ADDB /* LaunchScreen.xib in Resources */,
+				7D56FDFA1B873A680017ADDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D56FDE51B873A680017ADDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9FCE001B9086DD004A54C7 /* SecondViewController.m in Sources */,
+				7D9FCDFD1B9084C1004A54C7 /* SYMaterialModalSegue.m in Sources */,
+				7D56FDF51B873A680017ADDB /* ViewController.m in Sources */,
+				7D56FDF21B873A680017ADDB /* AppDelegate.m in Sources */,
+				7D56FDEF1B873A680017ADDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D56FDF61B873A680017ADDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D56FDF71B873A680017ADDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D56FDFB1B873A680017ADDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D56FDFC1B873A680017ADDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D56FE0A1B873A680017ADDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D56FE0B1B873A680017ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D56FE0D1B873A680017ADDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SYMaterialSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D56FE0E1B873A680017ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SYMaterialSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D56FDE41B873A680017ADDB /* Build configuration list for PBXProject "SYMaterialSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D56FE0A1B873A680017ADDB /* Debug */,
+				7D56FE0B1B873A680017ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D56FE0C1B873A680017ADDB /* Build configuration list for PBXNativeTarget "SYMaterialSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D56FE0D1B873A680017ADDB /* Debug */,
+				7D56FE0E1B873A680017ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D56FDE11B873A680017ADDB /* Project object */;
+}
